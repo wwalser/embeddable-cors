@@ -1,4 +1,4 @@
-cors = (function() {
+var cors = (function() {
 
   // Determine the underlying implementation to be used.
   var useXhr = 'withCredentials' in new XMLHttpRequest();
