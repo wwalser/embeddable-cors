@@ -1,0 +1,27 @@
+{
+  "name": "embeddable-cors",
+  "version": "0.0.1",
+  "description": "Embeddable cors library, minimal feature set and extra small",
+  "main": "build/embeddable-cors.js",
+  "scripts": {
+    "build": "mkdir -p build && minify embeddable-cors.js > build/embeddable-cors.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwalser/embeddable.git"
+  },
+  "keywords": [
+    "cors",
+    "ajax",
+    "embed"
+  ],
+  "author": "Wesley Walser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwalser/embeddable-cors/issues"
+  },
+  "homepage": "https://github.com/wwalser/embeddable-cors#readme",
+  "devDependencies": {
+    "minify": "^1.4.21"
+  }
+}
