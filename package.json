@@ -1,6 +1,6 @@
 {
   "name": "embeddable-cors",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Embeddable cors library, minimal feature set and extra small",
   "main": "build/embeddable-cors.js",
   "scripts": {
