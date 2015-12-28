@@ -58,6 +58,9 @@ var cors = (function() {
 
     if (this.data) {
       var payload = JSON.stringify(data);
+      if(self.req.setRequestHeader) {
+        self.req.setRequestHeader('Content-Type', 'application/json');
+      }
     }
 
     self.req.send(payload || null);
