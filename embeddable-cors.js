@@ -51,7 +51,7 @@ var cors = (function() {
       self.res = {
         status: useXhr ? self.req.status : 200,
         text: self.req.responseText,
-        json: JSON.parse(self.req.responseText)
+        json: self.req.responseText.length && JSON.parse(self.req.responseText)
       };
       done(self.err, self.res);
     };
